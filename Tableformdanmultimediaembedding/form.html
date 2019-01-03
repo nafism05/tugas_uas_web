@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Form Pendaftaran Admin</h2>
+
+<form action="action.php" method="get">
+  Nama:<br>
+  <input type="text" name="nama">
+  <br>
+  Password:<br>
+  <input type="text" name="password">
+  <br>
+  Kelamin:<br>
+  <input type="radio" name="gender" value="male"> Male<br>
+	<input type="radio" name="gender" value="female"> Female<br>
+  Keahlian:<br>
+   <input type="checkbox" name="keahlian[]" value="Codeigniter">Codeigniter<br>
+	<input type="checkbox" name="keahlian[]" value="Laravel">Laravel<br>
+	<input type="checkbox" name="keahlian[]" value="Android" checked>Android<br> 
+Tempat Lahir:<br>
+	 <select name="tempat_lahir">
+	  <option value="pekalongan">Pekalongan</option>
+	  <option value="semarang">Semarang</option>
+	  <option value="bali">Bali</option>
+	</select> 
+	<br>
+Deskripsi Diri:<br>
+	 <textarea rows="4" cols="50" name="deskripsi"></textarea> 
+  <br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form> 
+
+
+</body>
+</html>
